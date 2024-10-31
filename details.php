@@ -29,7 +29,7 @@ $flavorDetails = [
         'ingredients' => 'Cinnamon, Water, Heavy Cream, Condensed Milk, Nuts',
         'images' => [
             [
-                'path' => 'csd.jpg',
+                'path' => 'csdlbl.jpg',
                 'price' => 'Rs. 800',
                 'volume' => '400 ml'
             ],
@@ -39,7 +39,7 @@ $flavorDetails = [
                 'volume' => '225 ml'
             ],
             [
-                'path' => 'csd.jpg',
+                'path' => 'csdlblcup.jpg',
                 'price' => 'Rs.180',
                 'volume' => '80 ml'
             ]
