@@ -7,17 +7,17 @@ $flavorDetails = [
         'ingredients' => 'Pandan leaves (Rampe), Water, Heavy Cream, Condensed Milk, Nuts (No colorings added)',
         'images' => [
             [
-                'path' => 'Screenshot 2024-10-30 063227-modified (1).png',
+                'path' => 'pdlbl.jpg',
                 'price' => 'Rs.800 ',
                 'volume' => '400 ml'
             ],
             [
-                'path' => 'Screenshot 2024-10-30 213423.png',
+                'path' => 'pd.jpg',
                 'price' => 'Rs. 500',
                 'volume' => '225 ml'
             ],
             [
-                'path' => 'Screenshot 2024-10-30 064039-modified.png',
+                'path' => 'pdlblcup.jpg',
                 'price' => 'Rs. 180',
                 'volume' => '80 ml'
             ]
