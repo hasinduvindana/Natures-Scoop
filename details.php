@@ -18,7 +18,7 @@ $flavorDetails = [
             ],
             [
                 'path' => 'Screenshot 2024-10-30 064039-modified.png',
-                'price' => 'Rs. 150',
+                'price' => 'Rs. 180',
                 'volume' => '80 ml'
             ]
         ]
@@ -52,7 +52,7 @@ $flavorDetails = [
         'images' => [
             [
                 'path' => '12.jpg',
-                'price' => 'Rs. 50',
+                'price' => 'Rs. 80',
                 'volume' => '30 ml'
             ]
             
@@ -65,7 +65,7 @@ $flavorDetails = [
         'images' => [
             [
                 'path' => 'nelly20.webp',
-                'price' => 'Rs. 50',
+                'price' => 'Rs. 80',
                 'volume' => '30 ml'
             ]
             
@@ -144,8 +144,8 @@ $details = $flavorDetails[$flavor];
             <img src="WhatsApp Image 2024-10-30 at 08.15.48_619c95f8.jpg" height="40px" alt="Logo">
         </div>
         <ul class="navbar-nav ml-auto">
-            <li><a class="nav-link" href="#home">Home</a></li>
-            <li><a class="nav-link" href="#footer">About us</a></li>
+            <li><a class="nav-link" href="index.html#home">Home</a></li>
+            <li><a class="nav-link" href="index.html/#footer">About us</a></li>
             <li><a class="nav-link" href="https://wa.me/94766924756">Contact us</a></li>
             <li><a class="nav-link" href="https://maps.app.goo.gl/5sHYmUQesEMHQfWNA">Main Branch</a></li>
         </ul>
