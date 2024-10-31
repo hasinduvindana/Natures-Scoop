@@ -40,7 +40,7 @@ $flavorDetails = [
             ],
             [
                 'path' => 'Screenshot 2024-10-30 064039-modified (2).png',
-                'price' => 'Rs.150',
+                'price' => 'Rs.180',
                 'volume' => '80 ml'
             ]
         ]
@@ -145,7 +145,7 @@ $details = $flavorDetails[$flavor];
         </div>
         <ul class="navbar-nav ml-auto">
             <li><a class="nav-link" href="index.html#home">Home</a></li>
-            <li><a class="nav-link" href="index.html/#footer">About us</a></li>
+            <li><a class="nav-link" href="index.html#footer">About us</a></li>
             <li><a class="nav-link" href="https://wa.me/94766924756">Contact us</a></li>
             <li><a class="nav-link" href="https://maps.app.goo.gl/5sHYmUQesEMHQfWNA">Main Branch</a></li>
         </ul>
