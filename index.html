@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Scoop Ice Cream</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM7d4CkqD/8D/q3Hp1kH7v2FlzFZ2L1Z1W0p1j" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <style>
+        
+        .navbar-custom {
+            background-color: rgb(50, 168, 158);
+        }
+
+        
+        .navbar-custom .nav-link {
+            color: black;
+        }
+
+       
+        .card-small {
+            width: 100%; 
+            max-width: 400px;
+            margin: auto;
+        }
+
+        
+        footer {
+            background-color: gray;
+            color: white; 
+        }
+    </style>
+</head>
+
+<body>
+   
+    <nav class="navbar navbar-expand-sm navbar-custom">
+        <div class="container-fluid">
+            <div class="logo textual pull-left">
+                <img src="WhatsApp Image 2024-10-30 at 08.15.48_619c95f8.jpg" height="40px" alt="Logo">
+            </div>
+            <ul class="navbar-nav ml-auto">
+                <li id="l1"><a class="nav-link" href="#home">Home</a></li>
+                <li id="l2"><a class="nav-link" href="#footer">About us</a></li>
+                <li id="l3"><a class="nav-link" href="https://wa.me/94766924756">Contact us</a></li>
+                <li id="l4"><a class="nav-link" href="https://maps.app.goo.gl/5sHYmUQesEMHQfWNA">Main Branch</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    
+    <div class="container text-center mt-5">
+        <h1>Nature's Scoop Ice Cream</h1>
+        <p>Discover our unique flavors</p>
+        <div class="row">
+           
+            <div class="col-md-6">
+                <div class="card card-small" onclick="location.href='details.php?flavor=cinnamon';" style="cursor: pointer;">
+                    <img src="6.jpg" class="card-img-top" alt="Cinnamon Swirl Dream">
+                    <div class="card-body">
+                        <h5 class="card-title">Cinnamon Swirl Dream</h5>
+                        <p class="card-text">Rich cinnamon flavor packed with antioxidants.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-small" onclick="location.href='details.php?flavor=pandyan';" style="cursor: pointer;">
+                    <img src="1.jpg" class="card-img-top" alt="Pandyan Delight">
+                    <div class="card-body">
+                        <h5 class="card-title">Pandyan Delight</h5>
+                        <p class="card-text">Refreshing Pandan flavor with health benefits.</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-6 mt-4">
+                <div class="card card-small" onclick="location.href='details.php?flavor=ambaralla';" style="cursor: pointer;">
+                    <img src="Ambarella.jpg" class="card-img-top" alt="Ambaralla Popsicle">
+                    <div class="card-body">
+                        <h5 class="card-title">Ambarella Bliss </h5>
+                        <p class="card-text">A tangy and refreshing popsicle made with local ambaralla fruit.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mt-4">
+                <div class="card card-small" onclick="location.href='details.php?flavor=nelly';" style="cursor: pointer;">
+                    <img src="nelly9.jpg" class="card-img-top" alt="Nelly Popsicle">
+                    <div class="card-body">
+                        <h5 class="card-title">Nelli Zest</h5>
+                        <p class="card-text">A unique popsicle made from the healthy and exotic Nelly fruit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Centered tagline with light green color -->
+<div class="container text-center mt-5">
+    <h3 style="color: lightgreen;">Where health meets indulgence</h3>
+</div>
+
+
+   
+    <div class="container text-center mt-5">
+        <h3>Scan to Fill Our Feedback Form</h3>
+        <p>Use your mobile device to scan the QR code below and open our Google Form.</p>
+
+       
+        <img src="frame.png" alt="Scan this QR code to open Google Form" class="img-fluid" width="200">
+    </div>
+
+    
+    <footer class="footer-border" style="padding: 20px;">
+        <div class="text-center text-lg-start" id="footer">
+            <section class="d-flex justify-content-between p-4">
+                <div>
+                    <h6>Check with us on social networks:</h6>
+                    <div class="footer-social-icons">
+                        <a href="#" class="text-reset"><i class="fab fa-facebook-f"></i></a><br>
+                        <a href="#" class="text-reset"><i class="fab fa-google"></i></a>
+                        <a href="#" class="text-reset"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="text-center mx-auto" style="flex-grow: 1;">
+                    <h4 class="text-uppercase fw-bold">Nature's Scoop</h4>
+                    <p>Where health meets indulgence</p>
+                </div>
+                <div>
+                    <h6 class="text-uppercase fw-bold">Contact</h6>
+                    <p><i class="fas fa-home me-3"></i> No.46, Matara RD, Galle</p>
+                    <p><i class="fas fa-envelope me-3"></i> NatureScoop@gmail.com</p>
+                    <p><i class="fas fa-phone me-3"></i> +94 915 628 313</p>
+                    <p><i class="fas fa-phone me-3"></i> +94 915 628 314</p>
+                </div>
+            </section>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2024 Copyright: <a class="text-reset fw-bold" href="http://localhost/Final/HungryMe/HUNGRYME.php">Nature'sScoop.com</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
